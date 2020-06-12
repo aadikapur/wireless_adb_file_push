@@ -22,5 +22,5 @@ adb connect $IP_ADDRESS:$PORT | grep connected
 #we are connected wirelessly now.
 echo "Remove USB connection if its connected then press any key..."
 read -sn1 input
-read -p "Enter path of file relative to \$HOME to push: " filepath
+read -p "Enter path of file or directory to push relative to \$HOME: " filepath
 adb push ~/$filepath /storage/self/primary/Download/
