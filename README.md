@@ -1,5 +1,5 @@
 ## wireless_adb_file_push
-<br>
+
 ### usage
 <ol>
   <li>install adb</li>
