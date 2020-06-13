@@ -1,4 +1,5 @@
 ## wireless_adb_file_push
+Use this in your bash backup function or with cron to sync a local file/directory with your phone without having to go through a cloud service
 
 ### usage
 <ol>
